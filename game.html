@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>
+        五目並べ
+    </h1>
+    
+    <div class="main">
+         <table border=solid width="100" height="100" id="gameTable">
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+         </table>
+         <div class="sidemenu">    
+            <button onclick="resetTable();" type="button">RESTART</button>
+            <p id="playerView">[RESTART]で開始</p>
+            <h2>遊び方</h2>
+            <ol>
+                <li>[RESTART]を押します</li>
+                <li>白黒を交互に打ちます</li>
+                <li>先に５つ縦横斜めのどこかに連続して並べたら勝利です</li>
+            </ol>
+         </div>
+    </div>     
+</body>
+</html>
